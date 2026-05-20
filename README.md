@@ -4,16 +4,20 @@ Solo end-to-end statistical-computing project in **R and Quarto**, delivering th
 
 > Final project for **DS1322 — Statistical Computing**, BS Data Science, University of Asia and the Pacific. Solo project.
 
-## What's in this repo
+## Repository layout
 
-- **`RIEGOStatcompFinalReport.html`** — full written report
-- **`RIEGOStatcompFinalPoster.html`** / **`.pdf`** — academic-style poster
-- **`RIEGOStatcompFinalPresentation.html`** — slide presentation
-- **`RIEGOStatcompFinalPresentation-Presenter.html`** — presenter-view variant
-- **Final Report/** — full DOCX final report
-- **Midway Report/** — DOCX progress report + XLSX of midway-stage tables
-- **Final Project Proposal/** — original project proposal
-- **data/README.md** — dataset is too large for GitHub; download instructions inside
+```
+artifacts/       Final renderable outputs:
+                 - RIEGOStatcompFinalReport.html
+                 - RIEGOStatcompFinalPoster.html / .pdf
+                 - RIEGOStatcompFinalPresentation.html
+                 - RIEGOStatcompFinalPresentation-Presenter.html
+reports/
+  proposal/      Original project proposal (DOCX)
+  midway/        Midway progress report (DOCX + XLSX of midway tables)
+  final/         Full written final report (DOCX)
+data/            (dataset not committed — see data/README.md for Kaggle source)
+```
 
 ## Methods covered
 
@@ -25,7 +29,7 @@ Frequency tables · association measures · probability distributions · samplin
 
 ## Dataset
 
-Credit Card Transactions Fraud Detection Dataset (~1.3M rows, ~354 MB). Not committed to this repo — see [data/README.md](data/README.md) for the Kaggle source and download steps.
+Credit Card Transactions Fraud Detection Dataset (~1.3M rows, ~354 MB). Not committed — see [data/README.md](data/README.md) for the Kaggle source and download steps.
 
 ## Status
 
